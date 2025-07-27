@@ -1,0 +1,8 @@
+1 and 2: 5 pages with a functioning navigation bar at the top
+4. The menu page is in tables
+5. The form is on the contact page
+6. The audio is on the main/home page, user has to unmute it in the top left
+
+JavaScript is the slideshow at the bottom of the homepage
+Image map is also on the home page, the cookie cake picture on the left
+Email and copyright statement is in the footer

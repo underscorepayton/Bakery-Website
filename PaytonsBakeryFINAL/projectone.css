@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(214, 189, 216);
+}
+
+.topnav {
+    background-color: #7668c9ec;
+    overflow: hidden;
+}
+
+.topnav a {
+  color: #eceb83;
+  text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header{
+    font-size:70px;
+    font-style:Georgia;
+}
+
+  p{
+    font-size:60px;
+    font-style:Georgia;
+    line-height: 100px;
+    text-align: left;
+  }
+
+.stdPic {
+  width: 650px; 
+  height: 550px; 
+  object-fit: cover;
+}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+footer {
+  background-color: #7668c9ec;
+  color: #eceb83;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+footer {
+  background-color: #7668c9ec;
+  color: #eceb83;
+  text-align: center;
+}

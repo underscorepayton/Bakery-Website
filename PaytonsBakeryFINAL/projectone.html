@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" type="text/css" href="projectone.css" />
+
+<head>
+	<audio id="player" autoplay muted controls>
+		<source src="bakeMusic.mp3" type="audio/mp3">
+	</audio>
+
+	<title>Payton's Bakery</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Bakery, Food, Gaffney" />
+
+
+
+</head>
+
+<body>
+
+	<body>
+		<div class="topnav">
+			<nav style="display: block; text-align: center;">
+				<a href="projectone.html">Home</a> |
+				<a href="menu.html">Menu</a> |
+				<a href="contact.html">Contact Us</a> |
+				<a href="aboutme.html">About Me</a> |
+				<a href="locations.html">Locations</a>
+			</nav>
+		</div>
+		<header>
+			<div style="text-align:center">
+				<h1 style="color:rgb(0, 0, 0);">Payton's Bakery</h1>
+				<div style="text-align: center">
+
+					<img align="right" src="bakerylogo.png" class="stdPic" />
+
+				</div>
+			</div>
+		</header>
+
+		<p style="color:rgb(0, 0, 0);"> Welcome to Payton's Bakery, where every bite is a testament to our passion
+			for delicious,
+			gluten-free baking! We believe everyone deserves to enjoy mouthwatering treats
+			without compromise, whether you're living with gluten sensitivies or simply prefer
+			gluten-free options. </p>
+
+		<div style="display: flex;">
+			<img src="25off.png" usemap="#image-map">
+
+			<map name="image-map">
+				<area alt="Contact Us" title="Contact Us" href="contact.html" coords="316,59,126" shape="circle">
+				<area alt="Menu" title="Menu" href="menu.html" coords="134,633,81" shape="circle">
+			</map>
+
+			<P style="color: rgb(0, 0, 0);">We offer a wide range of gluten-free delights. Each item is made in our
+				dedicated gluten-free kitchen to
+				ensure there
+				is no risk of cross-contamination, so you can enjoy our treats with complete peace of mind.</P>
+		</div>
+
+		<p style="color: rgb(0, 0, 0)">
+			Check out some of our work below!
+		</p>
+
+		<div style="text-align: center; width: 650; height: 550; margin-bottom: 15px;" class="slideshow-container">
+
+			<div class="mySlides fade">
+				<img align="center" src="michelle.jpg" class="stdPic" />
+			</div>
+
+			<div class="mySlides fade">
+				<img align="center" src="grad_cup.jpg" class="stdPic" />
+			</div>
+
+			<div class="mySlides fade">
+				<img align="center" src="melon.jpg" class="stdPic" />
+			</div>
+
+		</div>
+
+		<script>
+			let slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				let i;
+				let slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {
+					slideIndex = 1;
+				}
+				slides[slideIndex - 1].style.display = "block";
+				setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script>
+
+	</body>
+	<footer>
+		<div style="display: inline-block;">
+			<h3>© 2024 Payton's Bakery, LLC. All Rights Reserved. <a style="color: rgb(0, 0, 0);"
+					href="mailto:plmoore3000@limestone.edu">Email Us!</a></h3>
+		</div>
+	</footer>
+
+</html>

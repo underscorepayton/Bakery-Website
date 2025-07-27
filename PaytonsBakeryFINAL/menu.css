@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(214, 189, 216);
+}
+.topnav {
+  background-color: #7668c9ec;
+  overflow: hidden;
+}
+.topnav a {
+  color: #eceb83;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+header {
+  font-size: 75px;
+}
+p {
+  font-size: 40px;
+  font-style: italic;
+}
+li {
+  font-size: 30px;
+  line-height: 70px;
+}
+footer {
+  background-color: #7668c9ec;
+  color: #eceb83;
+  text-align: center;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+}
+
+.menu-item {
+  text-align: left;
+}
+
+.menu-price {
+  text-align: right;
+}
+
+
